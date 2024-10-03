@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">workshop2</string>
+    <string name="price_template">%1$d Р</string>
+</resources>

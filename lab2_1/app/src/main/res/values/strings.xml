@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">lab2_1</string>
+    <string name="avatar">Kitty avatar</string>
+    <string name="name">Lily</string>
+    <string name="description">Люблю спать, есть и грызть провода людей, которые живут в моей квартире...</string>
+    <string name="info_speciality">Специальность</string>
+    <string name="speciality">Самый любимый в семье</string>
+    <string name="info_age">Возраст</string>
+    <string name="age">1 год</string>
+    <string name="info_height">Рост</string>
+    <string name="height">40</string>
+    <string name="posts">299</string>
+    <string name="title_posts">Постов</string>
+    <string name="subscriptions">299</string>
+    <string name="title_subscriptions">Подписок</string>
+    <string name="followers">1300</string>
+    <string name="title_followers">Подписчиков</string>
+
+</resources>

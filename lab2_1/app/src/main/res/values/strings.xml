@@ -15,5 +15,13 @@
     <string name="title_subscriptions">Подписок</string>
     <string name="followers">1300</string>
     <string name="title_followers">Подписчиков</string>
+    <string name="text_about">О себе</string>
+    <string name="about_1">Мяу, я домашняя кошка. С юных лет была связана с охотой на мышей и игрой с клубками ниток.\nЯ люблю лазить по шторам, спать на солнышке и гонять лазерную указку.\nМоя жизнь полна творчества и кошачьих приключений!</string>
+    <string name="title_hobbies">Интересы</string>
+    <string name="hobbies_1">Цветы</string>
+    <string name="hobbies_2">Сон</string>
+    <string name="hobbies_3">Еда</string>
+    <string name="hobbies_4">Мебель</string>
+    <string name="hobbies_5">Аквариум</string>
 
 </resources>

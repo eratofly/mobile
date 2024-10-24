@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">movies</string>
+    <string name="app_title">Фильмы</string>
+    <string name="star_rating">star rating</string>
+    <string name="description">Description</string>
+    <string name="rating">0.0</string>
+    <string name="movie_name">Movie Name</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="expression">Выражение</string>
+    <string name="result">Результат</string>
+    <string name="author">Calculator by Даша</string>
+</resources>

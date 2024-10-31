@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/surname"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:text="Можешь выбрать любую кнопку!"
+        android:textSize="26sp">
+    </TextView>
+
+
+    <Button
+        android:id="@+id/nextB1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Продолжить"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="bottom">
+    </Button>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Не интересно"
+        android:layout_gravity="bottom">
+    </Button>
+
+</FrameLayout>

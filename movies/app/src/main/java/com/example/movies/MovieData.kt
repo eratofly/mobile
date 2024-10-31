@@ -1,8 +1,8 @@
 package com.example.movies
 
-data class MovieData (
+data class MovieData(
     val name: String,
     val annotation: String,
-    val rating: Double,
+    val rating: String,
     val previewURL: String
 )

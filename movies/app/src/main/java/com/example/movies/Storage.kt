@@ -1,15 +1,20 @@
 import com.example.movies.MovieData
+import java.math.RoundingMode
+import java.text.DecimalFormat
 import kotlin.random.Random
 
 object Storage {
     val movie by lazy {
         val result = mutableListOf<MovieData>()
+        val df = DecimalFormat("#.##")
+        df.roundingMode = RoundingMode.DOWN
+        val rating = df.format(Random.nextDouble(0.0, 5.0))
 
         movieNames.mapIndexedTo(result) { index, name ->
             MovieData(
                 name = name,
                 annotation = movieDescription[index],
-                rating = Random.nextDouble(0.0, 5.0),
+                rating = rating,
                 previewURL = moviePreviewUrl[index]
             )
         }
@@ -28,7 +33,7 @@ object Storage {
         "Vegetarian",
     )
     private val movieDescription = listOf(
-        "Classic pizza with tomato sauce, mozzarella, and fresh basil.",
+        "Classic pizza with tomato sauce, mozzarella, and fresh basil. Classic pizza with tomato sauce, mozzarella, and fresh basil. Classic pizza with tomato sauce, mozzarella, and fresh basil. Classic pizza with tomato sauce, mozzarella, and fresh basil. Classic pizza with tomato sauce, mozzarella, and fresh basil. Classic pizza with tomato sauce, mozzarella, and fresh basil. Classic pizza with tomato sauce, mozzarella, and fresh basil. Classic pizza with tomato sauce, mozzarella, and fresh basil.",
         "Topped with spicy pepperoni slices and mozzarella cheese.",
         "A mix of ham, pineapple, and cheese for a sweet and savory flavor.",
         "A rich blend of mozzarella, gorgonzola, parmesan, and goat cheese.",
@@ -37,7 +42,7 @@ object Storage {
     )
 
     private val moviePreviewUrl = listOf(
-        "https://avatars.mds.yandex.net/i?id=eae1d6e1e18e29179faf8bb209f496d7_l-5235076-images-thumbs&n=13",
+        "https://i.pinimg.com/736x/34/4c/12/344c122e858100d1ca7eec357975cbe1.jpg",
         "https://avatars.mds.yandex.net/i?id=eae1d6e1e18e29179faf8bb209f496d7_l-5235076-images-thumbs&n=13",
         "https://avatars.mds.yandex.net/i?id=eae1d6e1e18e29179faf8bb209f496d7_l-5235076-images-thumbs&n=13",
         "https://avatars.mds.yandex.net/i?id=eae1d6e1e18e29179faf8bb209f496d7_l-5235076-images-thumbs&n=13",

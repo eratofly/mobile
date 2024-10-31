@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="80dp"
+        android:autofillHints="Имя"
+        android:hint="Введите имя"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/editTextSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:autofillHints="Фамилия"
+        android:hint="Введите фамилию"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/nextA1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Продолжить"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="bottom">
+    </Button>
+
+    <Button
+        android:id="@+id/nextB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Я просто хочу потыкать кнопки"
+        android:layout_gravity="bottom">
+    </Button>
+
+</FrameLayout>

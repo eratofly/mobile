@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CookieClicker</string>
+    <string name="cookies_count">Печенья: 0</string>
+    <string name="per_second">В секунду: 0</string>
+    <string name="time">Время: 0</string>
+    <string name="description_cookie_button">Cookie Button</string>
+    <string name="average_speed">Средняя скорость: 0 п/мин</string>
+    <string name="clicker">Clicker</string>
+    <string name="shop">Shop</string>
+    <string name="Click">Клик</string>
+    <string name="image_building">Image Building</string>
+    <string name="building_name">Building Name</string>
+    <string name="mini_cookie">Mini Cookie</string>
+    <string name="building_quantity">123</string>
+    <string name="building_cost">0</string>
+</resources>

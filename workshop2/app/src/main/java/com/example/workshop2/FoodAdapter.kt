@@ -2,7 +2,7 @@ package com.example.workshop2
 
 import FoodItem
 import android.view.LayoutInflater
-import android.view.View
+https://docs.google.com/document/d/1BkvbNDMKo0UvWX4d8yVeCByuPH58s4_vV6N-ms0By-o/edit?usp=sharingimport android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.workshop2.databinding.ItemFoodBinding

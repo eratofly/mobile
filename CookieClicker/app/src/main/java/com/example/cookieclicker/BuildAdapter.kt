@@ -1,5 +1,6 @@
 package com.example.cookieclicker
 
+import ClickerViewModel
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Toast

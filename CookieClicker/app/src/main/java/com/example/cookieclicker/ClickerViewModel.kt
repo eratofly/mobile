@@ -53,7 +53,6 @@ class ClickerViewModel : ViewModel() {
             )
 
             if (_state.value.cookiesCount == 2000.0 && !_state.value.notificationSent) {
-                println("TTYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYT")
                 _notificationFlow.tryEmit("У вас ${_state.value.cookiesCount.toInt()} печенья, пора прикупить что-нибудь!")
                 _state.value = _state.value.copy(notificationSent = true)
             }
